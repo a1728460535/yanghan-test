@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			body{
+				margin:0;
+				padding:0;
+				overflow: hidden;
+				}
+		</style>
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script type="text/javascript">
+			
+		
+		$(function(){
+			changeWH();
+ 		});
+ 
+    function changeWH(){
+ 
+        $("#myiframe").height($(document).height());
+        $("#myiframe").width($(document).width());
+    }
+ 
+    window.onresize=function(){  
+         changeWH();  
+ 
+    } 
+ 
+		</script>
+	</head>
+	<body>
+		
+		<iframe src="http://www.yunfaw.top/Task/NewHall?coop_id=1865&ukey=10052" id="myiframe"  frameborder="0">
+		</iframe>
+		
+	</body>
+</html>
